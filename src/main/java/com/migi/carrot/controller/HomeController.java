@@ -40,7 +40,6 @@ public class HomeController {
         response.getData().add(new BoardDTO(2,"의자 싸게 판매합니다","흑석동",2000,0,30));
         return  response;
     }
-
     //id값을 통해 게시글 데이터 가져오기
 //    @GetMapping("/{id}")
 //    public BoardDTO findById(@PathVariable int id){
